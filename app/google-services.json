@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "781045135514",
+    "firebase_url": "https://listtodo-ed3d1-default-rtdb.firebaseio.com",
+    "project_id": "listtodo-ed3d1",
+    "storage_bucket": "listtodo-ed3d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781045135514:android:4a8d3416e15799a2700723",
+        "android_client_info": {
+          "package_name": "com.example.listtodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781045135514-ne2qg2reva9de2c8nbab2evuisoah6a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjVxVT1pvy2lgmX8pIChSUFri0WesV5BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781045135514-ne2qg2reva9de2c8nbab2evuisoah6a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
