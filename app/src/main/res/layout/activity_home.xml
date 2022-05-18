@@ -11,29 +11,34 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/homeToolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:background="#fff"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
 
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="802dp" />
 
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/fab"
-            android:layout_width="53dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
             android:layout_gravity="bottom|end"
             android:layout_margin="16dp"
-            android:backgroundTint="#6495ed"
+            android:backgroundTint="#5D7EB8"
             android:contentDescription="@string/common_google_play_services_enable_title"
-            android:src="@drawable/ic_add_black_24dp" />
+            android:src="@drawable/ic_add_black_24dp"
+            android:text="Create note"
+            android:textColor="@color/white"
+
+            />
 
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

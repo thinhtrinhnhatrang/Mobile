@@ -39,7 +39,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
         //toolbar = findViewById(R.id.RegisterToolbar);
         getSupportActionBar().setTitle("Register");
-        setSupportActionBar(toolbar);
+//        setSupportActionBar(toolbar);
 
         mAuth = FirebaseAuth.getInstance();
         loader = new ProgressDialog(this);
@@ -50,13 +50,6 @@ public class RegistrationActivity extends AppCompatActivity {
         RegBtn = findViewById(R.id.RegisterButton);
         RegQn = findViewById(R.id.RegisterPageQuestion);
 
-        RegQn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(RegistrationActivity.this,LoginActivity.class);
-                startActivity(intent);
-            }
-        });
         RegBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -78,7 +71,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
 
                         if(task.isSuccessful()){
-                            Intent intent = new Intent(RegistrationActivity.this,HomeActivity.class);
+                            Intent intent = new Intent(RegistrationActivity.this,LoginActivity.class);
                             startActivity(intent);
                             finish();
                             loader.dismiss();
